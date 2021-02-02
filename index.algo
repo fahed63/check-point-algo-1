@@ -1,0 +1,30 @@
+ALGORITHM algorithm_name
+VAR
+str, nbv, nbmot, nbcar : STRING;
+i,nb : INTEGER;
+
+BEGIN
+
+nb := 1; 
+FOR i FROM 0 TO length(str) STEP 1  DO
+IF (str[i] in ['a','e','i','u','o','y']) THEN
+nbv := nbv + 1;
+
+for (var i =0; i <= 26; i++)
+if (i == (str[i] - 'a') || (i == str[i] - 'A'))
+{
+    result++;
+    return result;
+}
+var result , count , vCount = 0;
+var str = "This is a sentence" ;
+for(int i = 0; i < string.length(); i++) {  
+    if(string.charAt(i) != ' ')  
+        count++; 
+        return count  
+}
+    
+END_IF
+
+END_FOR   
+END
